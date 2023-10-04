@@ -1,0 +1,285 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <div class="h-screen">
+        <div class="w-screen grid grid-cols-3 h-20 border-b-[1px] items-center fixed top-0 bg-white">
+            <div class="pl-15">
+                <img src="./airbnb-logo.png" class="h-16 w-28">
+            </div>
+
+            <div class="px-8">
+                <div class="flex items-center justify-evenly rounded-full shadow-md h-12 w-96 border">
+                    <button class="border-r-2 border-gray-100 px-4 text-sm font-medium">Anywhere</button>
+                    <button class="border-r-2 border-gray-100 px-4 text-sm font-medium">Any week</button>
+                    <button class="border-gray-100 px-4 gray-text">Add guests</button>
+                    <i class="fa-solid fa-magnifying-glass bg-red-500 text-white rounded-full p-2"></i>
+                </div>
+            </div>
+        
+
+            <div class="flex justify-end items-center pr-15 gap-8">
+                <p class="text-sm font-medium">Airbnb your home</p>
+                <span class="material-symbols-outlined">language</span>
+                <div class="flex justify-evenly items-center py-1.25 pr-1.25 pl-3 gap-2 rounded-full shadow-md h-10 w-20 border">
+                    <i class="fa-solid fa-bars"></i>
+                    <p class="bg-black text-white rounded-full w-7 h-7 text-center pt-1.5 text-[10px] font-semibold">E</p>
+                </div>
+            </div>
+        </div>
+        <div class="mt-14 mx-8 w-full ">
+            <div class="grid grid-cols-4 gap-y-4 class1">
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play2.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Jaipur, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">232 kilometers away</p>
+                    <p class="gray-text">10-15 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹11,412 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play3.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Agra, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">180 kilometers away</p>
+                    <p class="gray-text">1-6 Nov</p>
+                    <p class="text-sm font-medium mt-2">₹4,565 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play4.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Jaipur, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">232 kilometers away</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹51,639 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play5.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Kalwar, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">240 kilometers away</p>
+                    <p class="gray-text">1-6 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹90,000 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play6.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Dharam Pur, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">256 kilometers away</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹28,529 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play7.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Patan, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">150 kilometers away</p>
+                    <p class="gray-text">1-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹11,408 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play8.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Village Kalakho(Area Kandoli), India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">201 kilometers away</p>
+                    <p class="gray-text">1-6 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹9,674 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play11.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Mandawa, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">210 kilometers away</p>
+                    <p class="gray-text">1-6 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹8,000 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play9.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Danta, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">231 kilometers away</p>
+                    <p class="gray-text">3-8 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹10,900 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play10.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Dehradun, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">254 kilometers away</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹13,560 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play11.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Makka Wala, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">74 kilometers away</p>
+                    <p class="gray-text">2-9 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹41,653 night</p>
+                </div>
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./play-image/play12.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Mussoorie, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">222 kilometers away</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">22,167 night</p>
+                </div>
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./hotel-image/Mashobra.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Mashobra, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">Mountain View</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">22,304 night</p>
+                </div>
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./hotel-image/Ranikhet.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Ranikhet, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">Mountain and garden views</p>
+                    <p class="gray-text">11-16 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹3,138 night</p>
+                </div>
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./hotel-image/Nainital.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Nainital, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">Mountain and lake views</p>
+                    <p class="gray-text">3-9 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹9,129 night</p>
+                </div>
+
+                <div class="flex flex-col h-96 w-72">
+                    <img src="./hotel-image/Shimla.webp" class="rounded-xl w-72 h-64">
+                    <div class="flex justify-between mt-2">
+                        <p class="text-sm font-medium">Shimla, India</p>
+                        <div class="flex">
+                            <i class="fa-solid fa-star"></i>
+                            <p class="text-sm font-light">5.0</p>
+                        </div>
+                    </div>
+                    <p class="gray-text">277 kilometers away</p>
+                    <p class="gray-text">2-7 Oct</p>
+                    <p class="text-sm font-medium mt-2">₹11,423 night</p>
+                </div>
+            </div>
+        </div>
+        <footer class="h-12 fixed bottom-0 w-screen bg-white flex justify-between items-center px-10">
+            <div class="flex space-x-2 text-sm font-base">
+                <p>© 2023 Airbnb, Inc.</p>
+                <p>·</p>
+                <p>Privacy</p>
+                <p>·</p>
+                <p>Terms</p>
+                <p>·</p>
+                <p>Sitemap</p>
+                <p>·</p>
+                <p>Company details</p>
+            </div>
+            <div class="flex space-x-4 text-sm font-medium">
+                <span class="material-symbols-outlined">language</span>
+                <p>English(IN)</p>
+                <p>₹ INR</p>
+                <p>Support & resources</p>
+            </div>
+    </footer>
+
+</body>
+</html>
