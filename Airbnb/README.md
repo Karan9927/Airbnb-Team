@@ -1,5 +1,5 @@
 ## Hosted Link
-[](https://karan9927.github.io/Airbnb-landing-page/)
+[Link for the Landing page](https://karan9927.github.io/Airbnb-landing-page/)
 
 ## Screenshot of the UI
 ### Desktop View
