@@ -1,6 +1,6 @@
 # Airbnb-Team
 
-## [Hosted Link](https://rajakhan017.github.io/My-Airbnb-Websit/)
+## [Hosted Link](https://rajakhan017.github.io/Airbnb-Team/Karan/index.html)
 
 ### Table of Contents
 
@@ -25,6 +25,11 @@ The screenshots take a lot of space. Click on the links to navigate easily
 - Interactive footer and menu buttons
 
 ### Screenshots
+![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/8283000c-c10a-40b9-b773-f6584d63920f)
+![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/472d8190-5078-4b87-acf1-e7b639011cba)
+![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/b4403c37-11dd-44ce-8a8e-97fb92674f8f)
+![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/de93848b-3995-43aa-a900-ed55711ed6a1)
+![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/ba0b0283-bf21-4ea8-9b00-da9b3e00629b)
 ![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/314c3520-4586-4af7-b072-dde3669b11a9)
 ![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/97235ecd-d019-44c6-993d-83af1db9d04f)
 ![image](https://github.com/rajakhan017/Airbnb-Team/assets/135150598/a37d6595-5f9d-41d4-bda8-a1a997414d2c)
